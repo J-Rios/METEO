@@ -1,0 +1,5 @@
+#
+#Thu Dec 08 21:17:25 CET 2016
+com.intel.core.target.selection="Edison"
+com.intel.core.project.type.id="com.intel.iotdevkit.cdt.iotCDTNature"
+com.intel.core.project.description="IoT"

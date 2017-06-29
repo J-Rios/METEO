@@ -1,0 +1,48 @@
+﻿<Page
+    x:Class="MeteoPanel.HambMenu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MeteoPanel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    NavigationCacheMode="Enabled">
+
+    <ScrollViewer VerticalScrollMode="Auto" VerticalScrollBarVisibility="Auto" HorizontalScrollMode="Auto" HorizontalScrollBarVisibility="Auto">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <SplitView x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" CompactPaneLength="75" OpenPaneLength="220" >
+            <SplitView.Pane>
+                <StackPanel>
+
+                    <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Width="75" Height="75" Background="Transparent" Click="HamburgerButton_Click" FontSize="20"/>
+                    <TextBlock x:Name="Menu_Label" Text="M" FontSize="36" Margin="23,0,12,0" />
+
+                    <StackPanel x:Name="Stack_Menu_Button1" Orientation="Horizontal" Margin="0,40,0,0" Height="60">
+                            <RadioButton x:Name="Menu_Button1" Content="  &#x2AD8;" HorizontalAlignment="Left" VerticalAlignment="Center" Width="218" Background="Transparent" Style="{StaticResource ToggleButtonStyle1}" Click="MenuButton1_clicked" HorizontalContentAlignment="Left" Height="60" VerticalContentAlignment="Center" FontFamily="Segoe UI Symbol" FontSize="24" />
+                    </StackPanel>
+
+                    <StackPanel x:Name="Stack_Menu_Button2" Orientation="Horizontal" Height="60">
+                            <RadioButton x:Name="Menu_Button2" Content="  &#xE2C8;" HorizontalAlignment="Center" VerticalAlignment="Center" Width="218" Background="Transparent" Style="{StaticResource ToggleButtonStyle1}" Click="MenuButton2_clicked" HorizontalContentAlignment="Left" Height="60" VerticalContentAlignment="Center" FontSize="24" FontFamily="Segoe UI Symbol" />
+                    </StackPanel>
+
+                    <StackPanel x:Name="Stack_Menu_Button3" Orientation="Horizontal" Height="60">
+                            <RadioButton x:Name="Menu_Button3" Content="  &#xE2AD;" HorizontalAlignment="Center" VerticalAlignment="Center" Width="218" Background="Transparent" Style="{StaticResource ToggleButtonStyle1}" Click="MenuButton3_clicked" HorizontalContentAlignment="Left" Height="60" VerticalContentAlignment="Center" FontSize="24" FontFamily="Segoe UI Symbol" />
+                    </StackPanel>
+
+                    <StackPanel x:Name="Stack_Menu_Button4" Orientation="Horizontal" Height="60">
+                            <RadioButton x:Name="Menu_Button4" Content="  &#xE115;" HorizontalAlignment="Center" VerticalAlignment="Center" Width="218" Background="Transparent" Style="{StaticResource ToggleButtonStyle1}" Click="MenuButton4_clicked" HorizontalContentAlignment="Left" Height="60" VerticalContentAlignment="Center" FontSize="24" FontFamily="Segoe UI Symbol" />
+                    </StackPanel>
+
+                    <StackPanel x:Name="Stack_Menu_Button5" Orientation="Horizontal" Height="60">
+                            <RadioButton x:Name="Menu_Button5" Content="   &#x003F;" HorizontalAlignment="Center" VerticalAlignment="Center" Width="218" Background="Transparent" Style="{StaticResource ToggleButtonStyle1}" Click="MenuButton5_clicked" HorizontalContentAlignment="Left" Height="60" VerticalContentAlignment="Center" FontSize="24" FontFamily="Segoe UI Symbol" />
+                    </StackPanel>
+
+                </StackPanel>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <Frame x:Name="Frame_Pantalla"/>
+                </SplitView.Content>
+        </SplitView>
+    </Grid>
+    </ScrollViewer>
+</Page>

@@ -1,0 +1,63 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MeteoPanel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Charting="using:WinRTXamlToolkit.Controls.DataVisualization.Charting" 
+    xmlns:DataVisualization="using:WinRTXamlToolkit.Controls.DataVisualization"
+    x:Class="MeteoPanel.Pantalla3" 
+    mc:Ignorable="d"
+    NavigationCacheMode="Enabled">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:ConnectionId='1' x:Name="textBlock_titulo" HorizontalAlignment="Left" Margin="190,42,0,0" TextWrapping="Wrap" Text="Monitor de datos - Registro" VerticalAlignment="Top" FontSize="48"/>
+        <Line x:ConnectionId='2' x:Name="line_1" Stroke="White" X2="1200" Y2="115" X1="190" Y1="115" StrokeThickness="2"/>
+
+        <!-- ____________________________________________________________________________________________________________ -->
+
+        <!-- Grafica -->
+        <Charting:Chart x:ConnectionId='3' x:Name="LineChart" Margin="160,150,249,265" IsTextScaleFactorEnabled="False">
+
+            <!-- Ejes -->
+            <Charting:Chart.Axes>
+                <!--<Charting:LinearAxis x:Name="LineChart_axeX" Orientation="X" Title="t (hora)"  ShowGridLines="True"/>-->
+                <Charting:LinearAxis x:ConnectionId='18' x:Name="LineChart_axeY" Orientation="Y" Title="º C"  ShowGridLines="True" Margin="0,-42,0,0"/>
+            </Charting:Chart.Axes>
+
+            <!-- Linea de datos -->
+            <Charting:LineSeries x:ConnectionId='19' x:Name="LineChart_serie" Title="" IndependentValuePath="X" DependentValuePath="Y" IsSelectionEnabled="true" Margin="0,-42,0,0">
+                <Charting:LineSeries.DataPointStyle>
+                    <Style TargetType="Charting:LineDataPoint">
+                        <Setter Property="Background" Value="Blue"/>
+                        <!--<Setter Property="Width" Value="0" />   Quitar puntos
+                        <Setter Property="Height" Value="0" />   Quitar puntos -->
+                        <!-- <Setter Property="Opacity" Value="0"/> Ocultar puntos-->
+                    </Style>
+                </Charting:LineSeries.DataPointStyle>
+
+            </Charting:LineSeries>
+
+        </Charting:Chart>
+
+        <!-- ____________________________________________________________________________________________________________ -->
+
+        <!-- Botones y Switches-->
+        <RadioButton x:ConnectionId='4' x:Name="button_temp" Content="Temperatura" Style="{StaticResource ToggleButtonStyle2}" HorizontalAlignment="Left" Margin="204,610,0,0" VerticalAlignment="Top" Height="56" Width="141" FontSize="20"                        IsChecked="True"/>
+        <RadioButton x:ConnectionId='5' x:Name="button_hum" Content="Humedad" Style="{StaticResource ToggleButtonStyle2}" HorizontalAlignment="Left" Margin="364,610,0,0" VerticalAlignment="Top" Height="56" Width="141" FontSize="20"                       />
+        <RadioButton x:ConnectionId='6' x:Name="button_pres" Content="Presión" Style="{StaticResource ToggleButtonStyle2}" HorizontalAlignment="Left" Margin="526,610,0,0" VerticalAlignment="Top" Height="56" Width="141" FontSize="20"                       />
+        <RadioButton x:ConnectionId='7' x:Name="button_luz" Content="Luz" Style="{StaticResource ToggleButtonStyle2}" HorizontalAlignment="Left" Margin="689,610,0,0" VerticalAlignment="Top" Height="56" Width="141" FontSize="20"                       />
+        <TextBlock x:ConnectionId='8' x:Name="textBlock_estado" HorizontalAlignment="Left" Margin="813,78,0,0" TextWrapping="Wrap" Text="Estado: Desconectado" VerticalAlignment="Top"/>
+        <ToggleSwitch x:ConnectionId='9' x:Name="toggleSwitch_TR" Style="{StaticResource ToggleSwitch_disable_disabled}" Header="Grafica a tiempo real" HorizontalAlignment="Left" Margin="204,712,0,0" VerticalAlignment="Top" IsOn="True"                                 />
+        <ToggleSwitch x:ConnectionId='10' x:Name="toggleSwitch_Minuto" Style="{StaticResource ToggleSwitch_disable_disabled}" Header="Ultimo minuto" HorizontalAlignment="Left" Margin="386,712,0,0" VerticalAlignment="Top"                                 />
+        <ToggleSwitch x:ConnectionId='11' x:Name="toggleSwitch_Hora" Style="{StaticResource ToggleSwitch_disable_disabled}" Header="Ultima hora" HorizontalAlignment="Left" Margin="558,712,0,0" VerticalAlignment="Top"                                 />
+        <ToggleSwitch x:ConnectionId='12' x:Name="toggleSwitch_Dia" Style="{StaticResource ToggleSwitch_disable_disabled}" Header="Ultimas 24 horas" HorizontalAlignment="Left" Margin="709,712,0,0" VerticalAlignment="Top"                                 />
+        <CheckBox x:ConnectionId='13' x:Name="checkBox_ejeY" Content="Eje Y estático" HorizontalAlignment="Left" Margin="1192,168,0,0" VerticalAlignment="Top"                         />
+
+        <Line x:ConnectionId='14' x:Name="line_2" Stroke="White" X2="870" Y2="780" X1="870" Y1="590"/>
+        <TextBlock x:ConnectionId='15' x:Name="textBlock1" HorizontalAlignment="Left" Margin="910,624,0,0" TextWrapping="Wrap" Text="Exportar Log actual" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:ConnectionId='16' x:Name="button_exportar" Content="Exportar" HorizontalAlignment="Left" Margin="928,681,0,0" VerticalAlignment="Top" Height="56" Width="141" FontSize="20"                                />
+        <TextBlock x:ConnectionId='17' x:Name="textBlock_Fecha" HorizontalAlignment="Left" Margin="993,78,0,0" TextWrapping="Wrap" Text="Fecha: " VerticalAlignment="Top"/>
+    </Grid>
+</Page>
+

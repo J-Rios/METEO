@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.intel.issiot.cdt.config.gnu.cross.exe.debug.34664225.1025438299">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.intel.issiot.cdt.config.gnu.cross.exe.debug.34664225.1025438299" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="com.intel.issiot.cdt.config.gnu.cross.exe.debug.34664225.1025438299" name="Debug" parent="com.intel.issiot.cdt.config.gnu.cross.exe.debug">
+					<folderInfo id="com.intel.issiot.cdt.config.gnu.cross.exe.debug.34664225.1025438299." name="/" resourcePath="">
+						<toolChain id="com.intel.issiot.cdt.toolchain.gnu.cross.exe.debug.821807805" name="IoT Cross GCC" superClass="com.intel.issiot.cdt.toolchain.gnu.cross.exe.debug">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.869080492" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/MeteoEdison}/Debug" id="com.intel.issiot.builder.165505061" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="IoT internal builder" superClass="com.intel.issiot.builder">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="Debug"/>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="Release"/>
+								</outputEntries>
+							</builder>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.c.compiler.1761612429" name="IoT Cross GCC Compiler" superClass="com.intel.issiot.cdt.tool.gnu.cross.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.97285761" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1076404826" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="com.intel.issiot.cdt.gnu.c.option.include.paths.650262174" name="Include paths (-I)" superClass="com.intel.issiot.cdt.gnu.c.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/SparkFun_HTU21D_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/LiquidCrystal}&quot;"/>
+									<listOptionValue builtIn="false" value="D:/iss-iot-win/devkit-x86/sysroots/i586-poky-linux/usr/include/mraa"/>
+									<listOptionValue builtIn="false" value="D:/iss-iot-win/devkit-x86/sysroots/i586-poky-linux/usr/include/upm"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2015189598" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.cpp.compiler.1845262841" name="IoT Cross G++ Compiler" superClass="com.intel.issiot.cdt.tool.gnu.cross.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.714408139" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1762532153" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="com.intel.issiot.cdt.gnu.cpp.option.include.paths.2143610302" name="Include paths (-I)" superClass="com.intel.issiot.cdt.gnu.cpp.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/SparkFun_HTU21D_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/LiquidCrystal}&quot;"/>
+									<listOptionValue builtIn="false" value="D:/iss-iot-win/devkit-x86/sysroots/i586-poky-linux/usr/include/mraa"/>
+									<listOptionValue builtIn="false" value="D:/iss-iot-win/devkit-x86/sysroots/i586-poky-linux/usr/include/upm"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.884685526" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.c.linker.1219230736" name="IoT Cross GCC Linker" superClass="com.intel.issiot.cdt.tool.gnu.cross.c.linker">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1438610506" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.cpp.linker.2089656985" name="IoT Cross G++ Linker" superClass="com.intel.issiot.cdt.tool.gnu.cross.cpp.linker">
+								<option id="com.intel.issiot.cdt.gnu.cpp.option.link.libs.1671768777" name="Libraries" superClass="com.intel.issiot.cdt.gnu.cpp.option.link.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="pthread"/>
+									<listOptionValue builtIn="false" value="m"/>
+									<listOptionValue builtIn="false" value="rt"/>
+									<listOptionValue builtIn="false" value="upm-mpl3115a2"/>
+								</option>
+								<option id="com.intel.issiot.cdt.gnu.cpp.option.link.misc.other.1929264884" name="Miscellaneous" superClass="com.intel.issiot.cdt.gnu.cpp.option.link.misc.other"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.284258658" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.intel.issiot.cdt.gnu.generic.tool.archiver.1927401899" name="IoT Cross GCC Archiver" superClass="com.intel.issiot.cdt.gnu.generic.tool.archiver"/>
+							<tool id="com.intel.issiot.cdt.gnu.generic.tool.assembler.1472018996" name="IoT Cross GCC Assembler" superClass="com.intel.issiot.cdt.gnu.generic.tool.assembler">
+								<option id="gnu.both.asm.option.include.paths.236197237" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/SparkFun_HTU21D_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/LiquidCrystal}&quot;"/>
+									<listOptionValue builtIn="false" value="D:/iss-iot-win/devkit-x86/sysroots/i586-poky-linux/usr/include/mraa"/>
+									<listOptionValue builtIn="false" value="D:/iss-iot-win/devkit-x86/sysroots/i586-poky-linux/usr/include/upm"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.591191144" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="com.intel.issiot.cdt.config.gnu.cross.exe.debug.34664225.1025438299.994810033" name="/" resourcePath="Arduino_Core">
+						<toolChain id="com.intel.issiot.cdt.toolchain.gnu.cross.exe.debug.1511800136" name="IoT Cross GCC" superClass="com.intel.issiot.cdt.toolchain.gnu.cross.exe.debug" unusedChildren="">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.c.compiler.830447249" name="IoT Cross GCC Compiler" superClass="com.intel.issiot.cdt.tool.gnu.cross.c.compiler.1761612429">
+								<option id="com.intel.issiot.cdt.gnu.c.option.include.paths.299760553" name="Include paths (-I)" superClass="com.intel.issiot.cdt.gnu.c.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1541852681" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.cpp.compiler.753982339" name="IoT Cross G++ Compiler" superClass="com.intel.issiot.cdt.tool.gnu.cross.cpp.compiler.1845262841">
+								<option id="com.intel.issiot.cdt.gnu.cpp.option.include.paths.231884060" name="Include paths (-I)" superClass="com.intel.issiot.cdt.gnu.cpp.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.183470301" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.c.linker.273744109" name="IoT Cross GCC Linker" superClass="com.intel.issiot.cdt.tool.gnu.cross.c.linker.1219230736"/>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.cpp.linker.1046361507" name="IoT Cross G++ Linker" superClass="com.intel.issiot.cdt.tool.gnu.cross.cpp.linker.2089656985"/>
+							<tool id="com.intel.issiot.cdt.gnu.generic.tool.archiver.463413031" name="IoT Cross GCC Archiver" superClass="com.intel.issiot.cdt.gnu.generic.tool.archiver.1927401899"/>
+							<tool id="com.intel.issiot.cdt.gnu.generic.tool.assembler.1255384792" name="IoT Cross GCC Assembler" superClass="com.intel.issiot.cdt.gnu.generic.tool.assembler.1472018996">
+								<option id="gnu.both.asm.option.include.paths.1586396327" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2057363353" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="com.intel.issiot.cdt.config.gnu.cross.exe.debug.34664225.1025438299.1414488724" name="/" resourcePath="src">
+						<toolChain id="com.intel.issiot.cdt.toolchain.gnu.cross.exe.debug.228844555" name="IoT Cross GCC" superClass="com.intel.issiot.cdt.toolchain.gnu.cross.exe.debug" unusedChildren="">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.c.compiler.1661938787" name="IoT Cross GCC Compiler" superClass="com.intel.issiot.cdt.tool.gnu.cross.c.compiler.1761612429">
+								<option id="com.intel.issiot.cdt.gnu.c.option.include.paths.1703636503" name="Include paths (-I)" superClass="com.intel.issiot.cdt.gnu.c.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/LiquidCrystal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/SparkFun_HTU21D_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="D:/iss-iot-win/devkit-x86/sysroots/i586-poky-linux/usr/include/mraa"/>
+									<listOptionValue builtIn="false" value="D:/iss-iot-win/devkit-x86/sysroots/i586-poky-linux/usr/include/upm"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1997461184" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.cpp.compiler.924640578" name="IoT Cross G++ Compiler" superClass="com.intel.issiot.cdt.tool.gnu.cross.cpp.compiler.1845262841">
+								<option id="com.intel.issiot.cdt.gnu.cpp.option.include.paths.287908431" name="Include paths (-I)" superClass="com.intel.issiot.cdt.gnu.cpp.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/SparkFun_HTU21D_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/LiquidCrystal}&quot;"/>
+									<listOptionValue builtIn="false" value="D:/iss-iot-win/devkit-x86/sysroots/i586-poky-linux/usr/include/mraa"/>
+									<listOptionValue builtIn="false" value="D:/iss-iot-win/devkit-x86/sysroots/i586-poky-linux/usr/include/upm"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.441286368" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.c.linker.219862435" name="IoT Cross GCC Linker" superClass="com.intel.issiot.cdt.tool.gnu.cross.c.linker.1219230736"/>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.cpp.linker.692551422" name="IoT Cross G++ Linker" superClass="com.intel.issiot.cdt.tool.gnu.cross.cpp.linker.2089656985"/>
+							<tool id="com.intel.issiot.cdt.gnu.generic.tool.archiver.1908445617" name="IoT Cross GCC Archiver" superClass="com.intel.issiot.cdt.gnu.generic.tool.archiver.1927401899"/>
+							<tool id="com.intel.issiot.cdt.gnu.generic.tool.assembler.1949692124" name="IoT Cross GCC Assembler" superClass="com.intel.issiot.cdt.gnu.generic.tool.assembler.1472018996">
+								<option id="gnu.both.asm.option.include.paths.1781042226" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/SparkFun_HTU21D_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/LiquidCrystal}&quot;"/>
+									<listOptionValue builtIn="false" value="D:/iss-iot-win/devkit-x86/sysroots/i586-poky-linux/usr/include/upm"/>
+									<listOptionValue builtIn="false" value="D:/iss-iot-win/devkit-x86/sysroots/i586-poky-linux/usr/include/mraa"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.819676408" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="com.intel.issiot.cdt.config.gnu.cross.exe.debug.34664225.1025438299.257205200" name="/" resourcePath="LiquidCrystal">
+						<toolChain id="com.intel.issiot.cdt.toolchain.gnu.cross.exe.debug.1978588812" name="IoT Cross GCC" superClass="com.intel.issiot.cdt.toolchain.gnu.cross.exe.debug" unusedChildren="">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.c.compiler.456761864" name="IoT Cross GCC Compiler" superClass="com.intel.issiot.cdt.tool.gnu.cross.c.compiler.1761612429">
+								<option id="com.intel.issiot.cdt.gnu.c.option.include.paths.1292870544" name="Include paths (-I)" superClass="com.intel.issiot.cdt.gnu.c.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/LiquidCrystal}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1248300469" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.cpp.compiler.1614090836" name="IoT Cross G++ Compiler" superClass="com.intel.issiot.cdt.tool.gnu.cross.cpp.compiler.1845262841">
+								<option id="com.intel.issiot.cdt.gnu.cpp.option.include.paths.777465937" name="Include paths (-I)" superClass="com.intel.issiot.cdt.gnu.cpp.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/LiquidCrystal}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1656045410" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.c.linker.342764809" name="IoT Cross GCC Linker" superClass="com.intel.issiot.cdt.tool.gnu.cross.c.linker.1219230736"/>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.cpp.linker.1105792730" name="IoT Cross G++ Linker" superClass="com.intel.issiot.cdt.tool.gnu.cross.cpp.linker.2089656985"/>
+							<tool id="com.intel.issiot.cdt.gnu.generic.tool.archiver.1875873452" name="IoT Cross GCC Archiver" superClass="com.intel.issiot.cdt.gnu.generic.tool.archiver.1927401899"/>
+							<tool id="com.intel.issiot.cdt.gnu.generic.tool.assembler.1306337755" name="IoT Cross GCC Assembler" superClass="com.intel.issiot.cdt.gnu.generic.tool.assembler.1472018996">
+								<option id="gnu.both.asm.option.include.paths.1437476532" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/LiquidCrystal}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1294376141" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="com.intel.issiot.cdt.config.gnu.cross.exe.debug.34664225.1025438299.1608087810" name="/" resourcePath="SparkFun_HTU21D_Lib">
+						<toolChain id="com.intel.issiot.cdt.toolchain.gnu.cross.exe.debug.972704560" name="IoT Cross GCC" superClass="com.intel.issiot.cdt.toolchain.gnu.cross.exe.debug" unusedChildren="">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.c.compiler.1600293330" name="IoT Cross GCC Compiler" superClass="com.intel.issiot.cdt.tool.gnu.cross.c.compiler.1761612429">
+								<option id="com.intel.issiot.cdt.gnu.c.option.include.paths.2119598804" name="Include paths (-I)" superClass="com.intel.issiot.cdt.gnu.c.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/SparkFun_HTU21D_Lib}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1151935685" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.cpp.compiler.710769748" name="IoT Cross G++ Compiler" superClass="com.intel.issiot.cdt.tool.gnu.cross.cpp.compiler.1845262841">
+								<option id="com.intel.issiot.cdt.gnu.cpp.option.include.paths.2133860140" name="Include paths (-I)" superClass="com.intel.issiot.cdt.gnu.cpp.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/SparkFun_HTU21D_Lib}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.135356662" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.c.linker.1756816345" name="IoT Cross GCC Linker" superClass="com.intel.issiot.cdt.tool.gnu.cross.c.linker.1219230736"/>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.cpp.linker.1770449015" name="IoT Cross G++ Linker" superClass="com.intel.issiot.cdt.tool.gnu.cross.cpp.linker.2089656985"/>
+							<tool id="com.intel.issiot.cdt.gnu.generic.tool.archiver.1149975113" name="IoT Cross GCC Archiver" superClass="com.intel.issiot.cdt.gnu.generic.tool.archiver.1927401899"/>
+							<tool id="com.intel.issiot.cdt.gnu.generic.tool.assembler.1827373604" name="IoT Cross GCC Assembler" superClass="com.intel.issiot.cdt.gnu.generic.tool.assembler.1472018996">
+								<option id="gnu.both.asm.option.include.paths.1245942240" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/SparkFun_HTU21D_Lib}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1787634354" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="softwarepwm.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Arduino_Core"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="LiquidCrystal"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="SparkFun_HTU21D_Lib"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.intel.issiot.cdt.config.cross.exe.release.424189091.343698131">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.intel.issiot.cdt.config.cross.exe.release.424189091.343698131" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="com.intel.issiot.cdt.config.cross.exe.release.424189091.343698131" name="Release" parent="com.intel.issiot.cdt.config.cross.exe.release">
+					<folderInfo id="com.intel.issiot.cdt.config.cross.exe.release.424189091.343698131." name="/" resourcePath="">
+						<toolChain id="com.intel.issiot.cdt.toolchain.gnu.cross.exe.release.1533833041" name="IoT Cross GCC" superClass="com.intel.issiot.cdt.toolchain.gnu.cross.exe.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.1736753426" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/MeteoEdison}/Release" id="com.intel.issiot.builder.2038545657" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="IoT internal builder" superClass="com.intel.issiot.builder"/>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.c.compiler.2076639327" name="IoT Cross GCC Compiler" superClass="com.intel.issiot.cdt.tool.gnu.cross.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.1949010580" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.283344409" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="com.intel.issiot.cdt.gnu.c.option.include.paths.143247520" name="Include paths (-I)" superClass="com.intel.issiot.cdt.gnu.c.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="${POKY_HOME}/usr/include/mraa"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Adafruit_RGBLCD_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/SparkFun_HTU21D_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/LiquidCrystal}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.906836920" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.cpp.compiler.362142467" name="IoT Cross G++ Compiler" superClass="com.intel.issiot.cdt.tool.gnu.cross.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.321435943" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1273701272" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="com.intel.issiot.cdt.gnu.cpp.option.include.paths.1582235657" name="Include paths (-I)" superClass="com.intel.issiot.cdt.gnu.cpp.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="${POKY_HOME}/usr/include/upm"/>
+									<listOptionValue builtIn="false" value="${POKY_HOME}/usr/include/mraa"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Adafruit_RGBLCD_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/SparkFun_HTU21D_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/LiquidCrystal}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.399938754" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.c.linker.1097777248" name="IoT Cross GCC Linker" superClass="com.intel.issiot.cdt.tool.gnu.cross.c.linker">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1204505805" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.cpp.linker.925940093" name="IoT Cross G++ Linker" superClass="com.intel.issiot.cdt.tool.gnu.cross.cpp.linker">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.545622285" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.intel.issiot.cdt.gnu.generic.tool.archiver.377529952" name="IoT Cross GCC Archiver" superClass="com.intel.issiot.cdt.gnu.generic.tool.archiver"/>
+							<tool id="com.intel.issiot.cdt.gnu.generic.tool.assembler.1347380359" name="IoT Cross GCC Assembler" superClass="com.intel.issiot.cdt.gnu.generic.tool.assembler">
+								<option id="gnu.both.asm.option.include.paths.379223591" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Adafruit_RGBLCD_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/SparkFun_HTU21D_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/LiquidCrystal}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.953514379" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="com.intel.issiot.cdt.config.cross.exe.release.424189091.343698131.1783518564" name="/" resourcePath="LiquidCrystal">
+						<toolChain id="com.intel.issiot.cdt.toolchain.gnu.cross.exe.release.870143506" name="IoT Cross GCC" superClass="com.intel.issiot.cdt.toolchain.gnu.cross.exe.release" unusedChildren="">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.c.compiler.1296207697" name="IoT Cross GCC Compiler" superClass="com.intel.issiot.cdt.tool.gnu.cross.c.compiler.2076639327">
+								<option id="com.intel.issiot.cdt.gnu.c.option.include.paths.644497684" name="Include paths (-I)" superClass="com.intel.issiot.cdt.gnu.c.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="${POKY_HOME}/usr/include/mraa"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Adafruit_RGBLCD_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/SparkFun_HTU21D_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/LiquidCrystal}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1774051773" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.cpp.compiler.1090266993" name="IoT Cross G++ Compiler" superClass="com.intel.issiot.cdt.tool.gnu.cross.cpp.compiler.362142467">
+								<option id="com.intel.issiot.cdt.gnu.cpp.option.include.paths.684669637" name="Include paths (-I)" superClass="com.intel.issiot.cdt.gnu.cpp.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="${POKY_HOME}/usr/include/upm"/>
+									<listOptionValue builtIn="false" value="${POKY_HOME}/usr/include/mraa"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Adafruit_RGBLCD_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/SparkFun_HTU21D_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/LiquidCrystal}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1141350853" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.c.linker.1281803660" name="IoT Cross GCC Linker" superClass="com.intel.issiot.cdt.tool.gnu.cross.c.linker.1097777248"/>
+							<tool id="com.intel.issiot.cdt.tool.gnu.cross.cpp.linker.2105599484" name="IoT Cross G++ Linker" superClass="com.intel.issiot.cdt.tool.gnu.cross.cpp.linker.925940093"/>
+							<tool id="com.intel.issiot.cdt.gnu.generic.tool.archiver.8927049" name="IoT Cross GCC Archiver" superClass="com.intel.issiot.cdt.gnu.generic.tool.archiver.377529952"/>
+							<tool id="com.intel.issiot.cdt.gnu.generic.tool.assembler.1209601794" name="IoT Cross GCC Assembler" superClass="com.intel.issiot.cdt.gnu.generic.tool.assembler.1347380359">
+								<option id="gnu.both.asm.option.include.paths.203389964" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Arduino_Core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/Adafruit_RGBLCD_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/SparkFun_HTU21D_Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MeteoEdison/LiquidCrystal}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.875212239" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="MeteoEdison.com.intel.issiot.target.gnu.cross.exe.2039579556" name="Executable" projectType="com.intel.issiot.target.gnu.cross.exe"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.intel.issiot.cdt.config.cross.exe.release.424189091;com.intel.issiot.cdt.config.cross.exe.release.424189091.;com.intel.issiot.cdt.tool.gnu.cross.c.compiler.1801338503;cdt.managedbuild.tool.gnu.c.compiler.input.572241480">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.intel.issiot.cdt.config.cross.exe.release.424189091.343698131;com.intel.issiot.cdt.config.cross.exe.release.424189091.343698131.;com.intel.issiot.cdt.tool.gnu.cross.cpp.compiler.362142467;cdt.managedbuild.tool.gnu.cpp.compiler.input.399938754">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.intel.issiot.cdt.config.gnu.cross.exe.debug.34664225;com.intel.issiot.cdt.config.gnu.cross.exe.debug.34664225.;com.intel.issiot.cdt.tool.gnu.cross.c.compiler.664950368;cdt.managedbuild.tool.gnu.c.compiler.input.408576461">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.intel.issiot.cdt.config.gnu.cross.exe.debug.34664225.1025438299;com.intel.issiot.cdt.config.gnu.cross.exe.debug.34664225.1025438299.;com.intel.issiot.cdt.tool.gnu.cross.cpp.compiler.1845262841;cdt.managedbuild.tool.gnu.cpp.compiler.input.884685526">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.intel.issiot.cdt.config.gnu.cross.exe.debug.34664225.1025438299;com.intel.issiot.cdt.config.gnu.cross.exe.debug.34664225.1025438299.;com.intel.issiot.cdt.tool.gnu.cross.c.compiler.1761612429;cdt.managedbuild.tool.gnu.c.compiler.input.2015189598">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.intel.issiot.cdt.config.cross.exe.release.424189091.343698131;com.intel.issiot.cdt.config.cross.exe.release.424189091.343698131.;com.intel.issiot.cdt.tool.gnu.cross.c.compiler.2076639327;cdt.managedbuild.tool.gnu.c.compiler.input.906836920">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>

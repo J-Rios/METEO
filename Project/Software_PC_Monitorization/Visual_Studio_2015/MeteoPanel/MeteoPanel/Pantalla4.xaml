@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="MeteoPanel.Pantalla4"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MeteoPanel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    NavigationCacheMode="Enabled">
+
+    <!--<ScrollViewer VerticalScrollMode="Auto" VerticalScrollBarVisibility="Auto" HorizontalScrollMode="Auto" HorizontalScrollBarVisibility="Auto">-->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Line x:Name="line_1" Stroke="White" X2="1200" Y2="115" X1="190" Y1="115" StrokeThickness="2"/>
+        <Line x:Name="line_2" Stroke="White" X2="520" Y2="600" X1="520" Y1="400"/>
+        <Line x:Name="line_3" Stroke="White" X2="880" Y2="600" X1="880" Y1="400"/>
+        <TextBlock x:Name="textBlock_titulo" HorizontalAlignment="Left" Margin="190,42,0,0" TextWrapping="Wrap" Text="Configuración de la conexión" VerticalAlignment="Top" FontSize="48"/>
+        <!--<TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="121,71,0,0" TextWrapping="Wrap" Text="________________________________________________________________________" VerticalAlignment="Top" Width="1098" FontSize="36"/>-->
+        <TextBlock x:Name="textBlock_1" HorizontalAlignment="Left" Margin="190,328,0,0" TextWrapping="Wrap" Text="Vinculación de socket (atención de paquetes UDP )" VerticalAlignment="Top" FontSize="28"/>
+        <ToggleSwitch x:Name="toggleSwitch_todas" Style="{StaticResource ToggleSwitch_disable_disabled}" Header="Adaptador por defecto" HorizontalAlignment="Left" Margin="238,402,0,0" VerticalAlignment="Top" FontSize="22" PointerReleased="ts_all_clicked"/>
+        <ToggleSwitch x:Name="toggleSwitch_especific" Style="{StaticResource ToggleSwitch_disable_disabled}" Header="Adaptador específico" HorizontalAlignment="Left" Margin="597,402,0,0" VerticalAlignment="Top" FontSize="22" PointerReleased="ts_specific_clicked" IsEnabled="False" AllowDrop="True"/>
+        <TextBlock x:Name="textBlock_2" HorizontalAlignment="Left" Margin="607,501,0,0" TextWrapping="Wrap" Text="Selecciona adaptador" VerticalAlignment="Top" FontSize="22"/>
+        <ComboBox x:Name="adapterList_adapt" HorizontalAlignment="Left" Margin="627,547,0,0" VerticalAlignment="Top" Width="120" FontSize="18" SelectionChanged="AdapterList_Seleccion"/>
+
+        <TextBlock x:Name="textBlock_10" HorizontalAlignment="Left" Margin="264,145,0,0" TextWrapping="Wrap" Text="Puerto de comunicación UDP" VerticalAlignment="Top" FontSize="28"/>
+        <TextBox x:Name="textBox_puerto_udp" HorizontalAlignment="Left" Margin="312,221,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="18" PlaceholderText="3333" InputScope="Digits"/>
+        <Button x:Name="button_estPuerto_udp" Content="Establecer" HorizontalAlignment="Left" Margin="414,223,0,0" VerticalAlignment="Top" FontSize="18" Click="Boton_estabP_UDP_Clicked"/>
+        <TextBlock x:Name="textBlock_10_Copy" HorizontalAlignment="Left" Margin="772,145,0,0" TextWrapping="Wrap" Text="Puerto de comunicación TCP" VerticalAlignment="Top" FontSize="28"/>
+        <TextBox x:Name="textBox_puerto_tcp" HorizontalAlignment="Left" Margin="820,221,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="18" PlaceholderText="6666" InputScope="Digits"/>
+        <Button x:Name="button_estPuerto_tcp" Content="Establecer" HorizontalAlignment="Left" Margin="922,223,0,0" VerticalAlignment="Top" FontSize="18" Click="Boton_estabP_TCP_Clicked"/>
+    </Grid>
+    <!--</ScrollViewer>-->
+
+</Page>

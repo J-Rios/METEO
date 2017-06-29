@@ -1,0 +1,66 @@
+﻿<Page 
+    x:Class="MeteoPanel.Pantalla2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MeteoPanel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Charting="using:WinRTXamlToolkit.Controls.DataVisualization.Charting"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock_titulo" HorizontalAlignment="Left" Margin="190,42,0,0" TextWrapping="Wrap" Text="Monitor de datos - Tiempo Real" VerticalAlignment="Top" FontSize="48"/>
+        <Line x:Name="line_1" Stroke="White" X2="1200" Y2="115" X1="190" Y1="115" StrokeThickness="2"/>
+
+        <Charting:Chart x:Name="ColumnChart_temp" Margin="172,118,998,337" MinWidth="270" Width="270">
+            <Charting:Chart.Axes>
+                <Charting:LinearAxis x:Name="ColumnChart_temp_axeY" Orientation="Y" Title="º C"  ShowGridLines="True"/>
+                <!--Minimum="-20" Maximum="100"/>-->
+            </Charting:Chart.Axes>
+            <Charting:ColumnSeries Title="" IndependentValuePath="X" DependentValuePath="Y"/>
+            <!--IsSelectionEnabled="true"/>-->
+        </Charting:Chart>
+
+        <Charting:Chart x:Name="ColumnChart_hum" Margin="460,118,710,337" MinWidth="270" Width="270">
+            <Charting:Chart.Axes>
+                <Charting:LinearAxis x:Name="ColumnChart_hum_axeY" Orientation="Y" Title="%"  ShowGridLines="True"/>
+            </Charting:Chart.Axes>
+            <Charting:ColumnSeries Title="" IndependentValuePath="X" DependentValuePath="Y"/>
+        </Charting:Chart>
+
+        <Charting:Chart x:Name="ColumnChart_luz" Margin="736,118,434,337" MinWidth="270" Width="270">
+            <Charting:Chart.Axes>
+                <Charting:LinearAxis x:Name="ColumnChart_luz_axeY" Orientation="Y" Title="%" ShowGridLines="true"/>
+            </Charting:Chart.Axes>
+            <Charting:ColumnSeries Title="" IndependentValuePath="X" DependentValuePath="Y"/>
+        </Charting:Chart>
+
+        <Charting:Chart x:Name="ColumnChart_pres" Margin="307,447,853,8" MinWidth="280" Width="280">
+            <Charting:Chart.Axes>
+                <Charting:LinearAxis x:Name="ColumnChart_pres_axeY" Orientation="Y" Title="KPa"  ShowGridLines="True"/>
+            </Charting:Chart.Axes>
+            <Charting:ColumnSeries Title="" IndependentValuePath="X" DependentValuePath="Y"/>
+        </Charting:Chart>
+
+        <Charting:Chart x:Name="ColumnChart_alti" Margin="600,447,560,3" MinWidth="280" Width="280">
+            <Charting:Chart.Axes>
+                <Charting:LinearAxis x:Name="ColumnChart_alti_axeY" Orientation="Y" Title="metros"  ShowGridLines="True"/>
+            </Charting:Chart.Axes>
+            <Charting:ColumnSeries Title="" IndependentValuePath="X" DependentValuePath="Y" />
+        </Charting:Chart>
+
+        <TextBlock x:Name="textBlock_datos" HorizontalAlignment="Left" Margin="1098,286,0,0" TextWrapping="Wrap" Text="Datos Recibidos:" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="textBlock_Temperatura" HorizontalAlignment="Left" Margin="1098,343,0,0" TextWrapping="Wrap" Text="Temperatura: " VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Humedad" HorizontalAlignment="Left" Margin="1098,368,0,0" TextWrapping="Wrap" Text="Humedad: " VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Presion" HorizontalAlignment="Left" Margin="1098,418,0,0" TextWrapping="Wrap" Text="Presión: " VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Altitud" HorizontalAlignment="Left" Margin="1098,443,0,0" TextWrapping="Wrap" Text="Altitud: " VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Luz" HorizontalAlignment="Left" Margin="1098,393,0,0" TextWrapping="Wrap" Text="Luminosidad: " VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Fecha" HorizontalAlignment="Left" Margin="1098,517,0,0" TextWrapping="Wrap" Text="Fecha: " VerticalAlignment="Top"/>
+
+        <Line x:Name="line_caja_1" Stroke="White" X1="1075"  X2="1300" Y1="269"  Y2="269"/>
+        <Line x:Name="line_caja_2" Stroke="White" X1="1300" X2="1300" Y1="269"  Y2="559"/>
+        <Line x:Name="line_caja_3" Stroke="White" X1="1300" X2="1075"  Y1="559"  Y2="559"/>
+        <Line x:Name="line_caja_4" Stroke="White" X1="1075"  X2="1075"  Y1="269"  Y2="559"/>
+
+    </Grid>
+</Page>
